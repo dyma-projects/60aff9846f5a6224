@@ -1,9 +1,9 @@
 <br />
-<span> valeur du compteur : </span>
+<span> valeur du compteur : {{ compteur2 }}</span>
 <br />
 <br />
-<button> + </button>
+<button (click)="modifierCompteur('plus')">+</button>
 <br />
 <br />
-<button> - </button>
-<br>
+<button (click)="modifierCompteur('moins')">-</button>
+<br />
